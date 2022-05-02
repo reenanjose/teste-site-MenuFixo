@@ -22,17 +22,13 @@ h1{
     text-align: center;
     text-shadow: 2.3px 2.3px 2.3px black;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 .menu{
     width: 100%;
     position: fixed; 
     background-image:linear-gradient(to right, #FFD3D4 70%, white);
     border-radius: 20px;
-}
-.menu h1{
-    margin-top: 10px;
-    margin-left: 10px;
-    float: left;
 }
 .menu ul{
     text-align: center;
@@ -251,12 +247,8 @@ header{
 
 @media (min-width: 1000px){
     .menu a{
-        margin-top: 80px;
+        margin-top: 30px;
         display: flex;
-        margin-left: -70%;
-    }
-    .menu h1{
-        margin-left: 45%;        
     }
     .section2 h1{
         padding-top: 150px;
@@ -278,7 +270,9 @@ header{
         border-bottom: 1px solid gray;
     }
     .menu > h1{
-        margin-left: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .menu ul{
@@ -302,10 +296,20 @@ header{
     .menu ul{
         margin-right: 30px;
     }
+    .menu h1{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }    
 }
 
 @media (min-width:320px){
     .menu ul{
         display: flex;
-    }       
+    }
+    .menu h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }    
 }
