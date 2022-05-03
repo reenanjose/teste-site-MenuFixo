@@ -27,7 +27,7 @@ h1{
 .menu{
     width: 100%;
     position: fixed; 
-    background-image:linear-gradient(to right, #FFD3D4 70%, white);
+    background-image:linear-gradient(to right, #ffcdcf 70%, white);
     border-radius: 20px;
 }
 .menu ul{
@@ -44,7 +44,7 @@ h1{
 }
 
 .menu a:hover{
-    background-image: linear-gradient(to right, palevioletred, white);
+    background-image: linear-gradient(to right, violet, white);
     border-radius: 30px;
     padding: 10px;
     transition: 1s;
@@ -79,7 +79,6 @@ padding-top: 80px ;
 }
 .section2 p{
     font-size: 20px;
-    color: rgb(54, 23, 0);
     margin-top: 60px;
 }
 .section2 p a{
@@ -93,7 +92,7 @@ padding-top: 80px ;
 .section2 a:hover{
     padding: 5px;
     border-radius: 10px;
-    background-image: linear-gradient(to right , palevioletred , white);
+    background-image: linear-gradient(to right , violet , white);
     transition: 0.6s
 }
 .section3{ 
@@ -129,7 +128,7 @@ padding-top: 80px ;
     font-size: 16px;
     border-radius: 8px;
     padding: 5px;
-    background-image: linear-gradient(to right , palevioletred , white);
+    background-image: linear-gradient(to right , violet , white);
     transition: 0.5s;
 }
 .curso span{
@@ -138,7 +137,7 @@ padding-top: 80px ;
 }
 footer{
     border-top: 1px solid black;
-    background-image: linear-gradient(to right,#FFD3D4 70%, white);
+    background-image: linear-gradient(to right,#ffcdcf 70%, white);
     padding: 20px;
     text-align: center;
     margin-top: 0px;
@@ -179,20 +178,24 @@ footer p{
 
 .foto1 p ,  .foto2 p{
     text-align: justify;   
-    background-color: chocolate;
+    text-align: center;
+    background-color: violet;
+    color: white;
     width: 27%;
     font-size: 18px;
 }
 .foto3 p{
-    background-color: chocolate;
+    background-color: violet;
     width: 31%;
+    color: white;
     font-size: 18px;
 }
 .foto4{
     margin-top: 70px;
 }
 .foto4 p{
-    background-color: chocolate;
+    background-color: violet;
+    color: white;
     width: 50%;
     font-size: 18px;
 }
@@ -211,16 +214,16 @@ footer p{
 
 .btn:hover{
     cursor: pointer;
-    background-image: linear-gradient(to right , palevioletred , white);
+    background-image: linear-gradient(to right , violet , white);
     padding: 20px;
     transition: 1s;
 }
 
 main{
-    background-image: linear-gradient(to right,#FFD3D4 70%, white);
+    background-image: linear-gradient(to right,#ffcdcf 70%, white);
 }
 header{
-    background-image: linear-gradient(to right,#FFD3D4 70%, white);
+    background-image: linear-gradient(to right,#ffcdcf 70%, white);
     background-repeat: no-repeat;
     background-position: center;
 }
