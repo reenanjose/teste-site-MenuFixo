@@ -11,18 +11,20 @@ html,body{
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    color: violet;
 }
+
 .menu h1{
+    color: rgb(90, 90, 90);
     margin-top: 30px;
-    margin-bottom: 20px;
-    text-decoration: underline;
+    margin-bottom: 60px;
     text-align: center;
-    text-shadow: 1.3px 1.3px 1.3px purple;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px violet;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
 }
 .menu{
+    height: 120px;
     width: 100%;
     position: fixed; 
     background-image:linear-gradient(to right, #ffcdcf 70%, white);
@@ -43,8 +45,8 @@ h1{
 
 .menu a:hover{
     background-image: linear-gradient(to right, violet, white);
-    border-radius: 30px;
-    padding: 10px;
+    border-radius: 5px;
+    padding: 7px;
     transition: 1s;
     text-decoration: underline;
 }
@@ -64,7 +66,8 @@ padding-top: 80px ;
 .section1 h1{
     margin-top: 50px;
     text-decoration: underline;
-    text-shadow: 1.3px 1.3px 1.3px purple;
+    color: rgb(90, 90, 90);
+    text-shadow: 2px 2px 2px violet;
 }
 
 .section2{
@@ -72,13 +75,15 @@ padding-top: 80px ;
     text-align: center;
 }
 .section2 h1{
-    text-shadow: 1.3px 1.3px 1.3px purple;
+    color: rgb(90, 90, 90);
+    text-shadow: 2px 2px 2px violet;
     text-decoration: underline;
 }
 .section2 p{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 60px;
-    color: rgb(54, 23, 0);
+    color: rgb(90, 90, 90);
+    text-shadow: 2px 2px 2px violet;
 }
 .section2 a:visited{
     color: black;
@@ -103,18 +108,21 @@ padding-top: 80px ;
     text-align: center;
 }
 .curso p{
-    color: rgb(54, 23, 0);
+    color: rgb(90, 90, 90);
+    text-shadow: 2px 2px 2px violet;
     text-decoration: underline;
 }
 .section3 h1{
     text-decoration: underline;
     margin-top: -10px;
-    text-shadow: 1.3px 1.3px 1.3px purple;
+    color: rgb(90, 90, 90);
+    text-shadow: 2px 2px 2px violet;
 }
 .section3 h4{
     margin-top: 40px;
     text-decoration: underline;
-    color: rgb(54, 23, 0);
+    color: rgb(90, 90, 90);
+    text-shadow: 2px 2px 2px violet;
 }
 .section3 a{
     text-decoration: none;
@@ -133,9 +141,20 @@ padding-top: 80px ;
     background-image: linear-gradient(to right , violet , white);
     
 }
+
 .curso span{
     text-decoration: underline;
-    color: rgb(54, 23, 0);
+    color: rgb(90, 90, 90);
+    text-shadow: 2px 2px 2px violet;
+}
+.curso h1{
+    text-decoration: underline;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(90, 90, 90);
+    text-shadow: 2px 2px 2px violet;
+
 }
 footer{
     border-top: 1px solid black;
@@ -149,14 +168,12 @@ footer p{
 }
 .seta{
     position: absolute;
-    margin-left: 18%;
+    margin-left: 16%;
     margin-top: 2210px;
     width: 30px;
     height: 70px;
+   
     transform: translateX(-50%);
-
-
-
     animation-name: seta;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -164,6 +181,15 @@ footer p{
     animation-direction: alternate;
 }
 
+.foto-curso>img{
+    margin-top: 40px ;
+    box-shadow: 3px 3px 3px rgb(83, 83, 83);
+    
+}
+
+.btn{
+    margin-top: 20px;
+}
 
 @keyframes seta{
     0%{
@@ -181,28 +207,28 @@ footer p{
 .foto1 p ,  .foto2 p{
     text-align: justify;   
     text-align: center;
-    background-color: violet;
-    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px violet;
     width: 27%;
     font-size: 18px;
 }
 .foto3 p{
-    background-color: violet;
+
+    text-shadow: 2px 2px 2px violet;
     width: 31%;
-    color: white;
     font-size: 18px;
 }
 .foto4{
     margin-top: 70px;
 }
 .foto4 p{
-    background-color: violet;
-    color: white;
-    width: 50%;
+
+    text-shadow: 2px 2px 2px violet;
+    color: rgb(90, 90, 90);
+    width: 40%;
     font-size: 18px;
 }
 .curso{
-    color: chocolate;
     padding-top: 70px;
     font-size: 20px;
     text-align: center;
@@ -231,7 +257,7 @@ header{
 }
 
 @media (max-width:500px) {
-    .foto1 p, .foto2 p, .foto3 p, .foto4 p{
+    .foto1 p, .foto2 p, .foto3 p, .foto4 p, .curso p{
         font-size: 15px;
         width: 55%;
         text-align: center;
@@ -252,7 +278,7 @@ header{
 
 @media (min-width: 1000px){
     .menu a{
-        margin-top: 30px;
+        margin-top: 0px;
         display: flex;
     }
     .section2 h1{
@@ -269,6 +295,10 @@ header{
     body{
         height: auto;
         }
+        .curso p{
+            font-size: 15px
+            
+        }
 
     .menu{
         height: 120px;
@@ -281,7 +311,9 @@ header{
         justify-content: center;
     }
     .menu a{
-        font-size: 18px;
+        margin-top: -25px;
+        font-size: 14px;
+
     }
     .menu ul{
         display: inline-block;
