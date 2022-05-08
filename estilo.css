@@ -180,7 +180,6 @@ footer p{
     margin-top: 2210px;
     width: 30px;
     height: 70px;
-   
     transform: translateX(-50%);
     animation-name: seta;
     animation-duration: 1s;
@@ -275,11 +274,23 @@ header{
     background-position: center;
 }
 
+.section2 img{
+    box-shadow: none;
+}
+
 @media (max-width:500px) {
     .foto1 p, .foto2 p, .foto3 p, .foto4 p, .curso p{
         font-size: 15px;
-        width: 55%;
+        width: 35%;
         text-align: center;
+    }
+    img{
+        width: 30%;
+    }
+}
+@media (min-width:500px){
+    img{
+        width: 25%;
     }
 }
 
@@ -377,10 +388,5 @@ header{
         flex-direction: row;
         justify-content: center;
     } 
-     img{
-        width: 45%;
-    }   
-    .foto2 img{
-        width: 55%;
-    }
+     
 }
