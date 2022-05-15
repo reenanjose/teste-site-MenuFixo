@@ -48,14 +48,19 @@ h1{
 }
 
 .menu a:hover{
+    box-shadow:  2px 2px 2px 1px grey;
     background-image: linear-gradient(to right, violet, white);
     border-radius: 5px;
     padding: 7px;
     transition: 1s;
     text-decoration: underline;
 }
+
+.menu ul a::after{
+    text-decoration: underline;
+}
 .menu a:visited{
-    text-decoration: none;
+    text-decoration: underline;
     color: rgb(54, 23, 0);
 }
 
