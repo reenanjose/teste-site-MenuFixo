@@ -271,7 +271,9 @@ footer p{
     border: none;
     margin-bottom: 20px;
 }
-
+script{
+    color: red;
+}
 .btn:hover{
     cursor: pointer;
     box-shadow: 12px 12px 12px gray;
